@@ -12,7 +12,10 @@
 }
 
 .container{
-
+  margin: 40px 150px 0%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 40px 5px;
 }
 
 .namelogo,#logo{
@@ -21,4 +24,23 @@
   font-size: 40px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: white;
+}
+
+.btt1{
+  color: white;
+  font-size: 12px;
+  background-color: #46ADF1;
+  border: 2px solid #46ADF1;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.btt2{
+  color: #C8CDD1;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid #C8CDD1;
+  border-radius: 5px;
+  padding: 2px 5px;
+  display: inline;
 }
