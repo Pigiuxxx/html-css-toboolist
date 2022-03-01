@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #F6F8F9;
 }
 
+body{
+  background-color: #F6F8F9;
+}
 .head{
   padding: 10px;
   background-color: white;
@@ -12,10 +14,10 @@
 }
 
 .container{
-  margin: 40px 150px 0%;
+  width: 70%;
+  margin: 40px auto 0;
   background-color: white;
   border-radius: 5px;
-  padding: 10px 40px 5px;
 }
 
 .namelogo,#logo{
@@ -43,4 +45,50 @@
   border-radius: 5px;
   padding: 2px 5px;
   display: inline;
+
+
 }
+
+.sezione-top {
+  border-bottom: 2px solid #F6F8F9;
+}
+
+.sezione {
+  padding:20px 50px 10px;
+}
+
+.space-top{
+  line-height: 40px;
+}
+
+.button-editorial{
+ color: white;
+ font-size: 12px;
+ background-color: #46ADF1;
+ border-radius: 10px;
+ padding: 6px;
+}
+
+.button-q1{
+  color: white;
+  font-size: 12px;
+  background-color: #9C72E4;
+  border-radius: 10px;
+  padding: 6px;
+ }
+
+ .button-recruiting{
+  color: white;
+  font-size: 12px;
+  background-color: #64BFA8;
+  border-radius: 10px;
+  padding: 6px;
+ }
+
+ .button-mobile{
+  color: white;
+  font-size: 12px;
+  background-color: #F29E33;
+  border-radius: 10px;
+  padding: 6px;
+ }
